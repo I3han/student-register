@@ -1,0 +1,38 @@
+<div class="container form">
+  <form  [formGroup]="form" (ngSubmit)="OnSubmit()">
+
+    <label for="3">Student Name : </label>
+    <input
+      type="text"
+      id="defaultLoginFormEmail"
+      formControlName="studentName"
+      ><br><br>
+
+    <label for="2">Maths Marks : </label>
+    <input
+      type="number"
+      id="marks1"
+      min= "0"
+      max= "100"
+      formControlName="mathsMark"><br><br>
+
+      <label for="3">English Marks : </label>
+    <input
+      type="number"
+      id="marks2"
+      min= "0"
+      max= "100"
+      formControlName="engMark"><br>
+<br>
+      <label for="4">Science Marks : </label>
+    <input
+      type="number"
+      id="marks3"
+      min= "0"
+      max= "100"
+      formControlName="sciMark"><br><br>
+
+    <button type="submit">SUBMIT DETAILS</button>
+
+  </form>
+</div>
