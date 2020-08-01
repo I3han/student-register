@@ -1,6 +1,6 @@
 # Frontend
 
-(open frontend folder separately from a IDE)
+open frontend folder separately from a IDE
 
 	run these commands:
 		npm install
@@ -8,7 +8,7 @@
 
 # Backend
 
-(open backend folder separately from a IDE)
+open backend folder separately from a IDE
 
 	run these commands:
 		npm install
